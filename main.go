@@ -33,6 +33,8 @@ func main() {
 	}
 
 	logg.Info().Msg("RabbitMQ consuming starting")
+	queueInf := "Queue listening:" + cfg.RMQQueue
+	logg.Info().Msg(queueInf)
 
 	go func() {
 		for {

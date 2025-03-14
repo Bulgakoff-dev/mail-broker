@@ -27,14 +27,6 @@ type Config struct {
 	SMTPUser string `mapstructure:"smtp_username"`
 	SMTPPort string `mapstructure:"smtp_port"`
 	SMTPMail string `mapstructure:"smtp_mail"`
-
-	// Pulsar config
-	PulsarAddr      string `mapstructure:"pulsar_addr"`
-	PulsarToken     string `mapstructure:"pulsar_token"`
-	PulsarQueueSMS  string `mapstructure:"pulsar_queue_sms"`
-	PulsarQueueMail string `mapstructure:"pulsar_queue_mail"`
-	PulsarDeadQueue string `mapstructure:"pulsar_dead"`
-	PulsarGroup     string `mapstructure:"pulsar_group"`
 }
 
 var (
