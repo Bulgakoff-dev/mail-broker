@@ -6,18 +6,11 @@ redis_addr: "149.126.169.135:6379"
 redis_pass: "p1cky8eimer"
 redis_db: 3
 
-# Pulsar configuration
-pulsar_addr: "pulsar://149.126.169.135:6650"
-pulsar_token: ""
-pulsar_queue_sms: "sms-topic"
-pulsar_queue_mail: "mail-topic"
-pulsar_group: "main-group"
-
 # RabbitMQ configuration
 rmq_addr: "149.126.169.135:5672"
 rmq_user: "admin"
 rmq_pass: "p1cky8eimer"
-rmq_queue: "queryMail"
+rmq_queue: "queryMailSignUp"
 
 # SMTP configuration
 smtp_server: "mail.eastern-gate.ru"

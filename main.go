@@ -26,6 +26,9 @@ func main() {
 		DB:       cfg.RedisDB,
 	})
 
+	queueInf := "Queue listening: " + cfg.RMQQueue
+	logg.Info().Msg(queueInf)
+
 	err := rdb.Ping(context.Background()).Err()
 	if err != nil {
 		logg.Err(err).Msg("Redis ping failed - application stops.")
