@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><!DOCTYPE html>
+        <html lang="ru">
+        <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Подтверждение регистрации</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f9f9f9;
+        }
+        .container {
+            width: 500px;
+            padding: 20px;
+            border: 2px solid black;
+            background-color: white;
+            text-align: center;
+            font-size: 16px;
+        }
+        .logo img {
+            max-width: 100px;
+            margin-bottom: 20px;
+        }
+        a {
+            color: #0073e6;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .footer {
+            margin-top: 20px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="logo">
+        <img src="{{logo_url}}" alt="LOGO">
+    </div>
+    <p><strong>Добро пожаловать, {{first_name}} {{last_name}}</strong></p>
+    <p>Ваша электронная почта была использована для регистрации на платформе <a href="https://bulgakoff.dev">bulgakoff.dev</a>.</p>
+    <p>Для подтверждения регистрации перейдите по ссылке:</p>
+    <p><a href="{{confirm_link}}">{{confirm_link}}</a></p>
+    <p class="footer">
+        Если это были не вы, проигнорируйте письмо или обратитесь в нашу службу поддержки по адресу
+        <a>support@eastern-gate.ru</a>.
+    </p>
+</div>
+
+</body>
+</html></title>
+</head>
+<body>
+
+</body>
+</html>
